@@ -2,23 +2,18 @@
 <html>
 
 <head>
-    <title>Bootstrap 实例</title>
+    <title>阿珍^_^</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-        h1 {
-            text-align: center
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script>
-        function jump(x)
-        {
-            var s=["recite","pronun","font","phrase","classic"];
-            var t=s[x-1]+".html";
-            window.location.href=t;
+        function jump(x) {
+            var s = ["recite", "pronun", "font", "phrase", "classic"];
+            var t = s[x - 1] + ".html";
+            window.location.href = t;
         }
     </script>
 </head>
@@ -27,15 +22,44 @@
 
     <div class="container">
         <div class="jumbotron">
-            <h1 text-align:center>晨读时分</h1>
+            <h1 class="text-center">晨读时分</h1>
         </div>
-        <button type="button" class="btn btn-primary btn-lg btn-block" onclick=jump(1)>规定篇目日日背</button>
-        <button type="button" class="btn btn-primary btn-lg btn-block" onclick=jump(2)>易错读音日日记</button>
-        <button type="button" class="btn btn-primary btn-lg btn-block" onclick=jump(3)>易错字形日日辨</button>
-        <button type="button" class="btn btn-primary btn-lg btn-block" onclick=jump(4)>易错成语日日记</button>
-        <button type="button" class="btn btn-primary btn-lg btn-block" onclick=jump(5)>文言虚词积累读</button>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick=jump(1)>规定篇目日日背</button>
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:70%"></div>
+            </div>
+            <h1></h1>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick=jump(2)>易错读音日日记</button>
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:70%"></div>
+            </div>
+            <h1></h1>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick=jump(3)>易错字形日日辨</button>
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:70%"></div>
+            </div>
+            <h1></h1>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick=jump(4)>易错成语日日记</button>
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:70%"></div>
+            </div>
+            <h1></h1>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick=jump(5)>文言虚词积累读</button>
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:70%"></div>
+            </div>
+            <h1></h1>
+        </div>
     </div>
-
 </body>
 
 </html>
