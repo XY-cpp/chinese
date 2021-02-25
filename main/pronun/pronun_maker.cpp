@@ -109,6 +109,8 @@ int main()
                 "    </div>\n"
                 "</body>\n"
                 "</html>\n",i,i);
+        for(int tmp=j;tmp<=30;tmp++)
+            cerr<<0<<" ";
         cerr<<endl;
     }
     fclose(stdout);
