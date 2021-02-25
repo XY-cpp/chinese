@@ -100,6 +100,7 @@ int main()
         }
         printf( "        <br></br>\n"
                 "        <button type=\"button\" class=\"btn btn-primary btn-lg btn-block\" onclick=submit(%d)>提交</button>\n"
+                "        <button type=\"button\" class=\"btn btn-danger btn-lg btn-block\" onclick=remove(%d)>清除记录</button>\n"
                 "        </div>\n"
                 "        <br></br>\n"
                 "        <script>fill(%d)</script>"
@@ -108,7 +109,7 @@ int main()
                 "        <br></br>\n"
                 "    </div>\n"
                 "</body>\n"
-                "</html>\n",i,i);
+                "</html>\n",i,i,i);
         for(int tmp=j;tmp<=30;tmp++)
             cerr<<0<<" ";
         cerr<<endl;
