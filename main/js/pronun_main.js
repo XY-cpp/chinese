@@ -48,6 +48,3 @@ function judge(d) {
             s.className='WA';
     }
 }
-function back(d) {
-    window.location.href = "../pronun.html";
-}

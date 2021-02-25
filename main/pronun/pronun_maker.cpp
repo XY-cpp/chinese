@@ -41,6 +41,11 @@ void init(int i)
             "    </style>\n"
             "</head>\n",i);
     printf( "<body>\n"
+            "    <div id=\"dg\" style=\"z-index: 9999; position: fixed ! important; right: 0px; top: 0px;\">\n"
+            "        <table width=\"\"100%% style=\"position: absolute; width:260px; right: 0px; top: 0px;\">\n"
+            "            <button type=\"button\" class=\"btn btn-warning\" onclick=\"window.location.href = '../pronun.html'\">返回</button>\n"
+            "        </table>"
+            "    </div>"
             "    <div class=\"container\">\n"
             "       <h2>读音：第%d天</h2>\n",i);
 }

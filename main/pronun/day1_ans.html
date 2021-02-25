@@ -11,13 +11,16 @@
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="../js/pronun_main.js"></script>
     <style>
-        span.WA {color: #FF0000;font-size: 25px}
+       span.WA {color: #FF0000;font-size: 25px}
 		span.AC {color: #1cad4d;font-size: 25px}
 		span.AL {color: #000000;font-size: 25px}
     </style>
 </head>
 <body>
-    <div class="container">
+    <div id="dg" style="z-index: 9999; position: fixed ! important; right: 0px; top: 0px;">
+        <table width=""100% style="position: absolute; width:260px; right: 0px; top: 0px;">
+            <button type="button" class="btn btn-warning" onclick="window.location.href = '../pronun.html'">返回</button>
+        </table>    </div>    <div class="container">
        <h2>读音：第1天答案</h2>
         <div class="border">
             <span class="AL">1.</span><span class="AL">一</span><span id="1" class="AC">绺</span><span class="AL"> liǔ</span>
@@ -110,7 +113,6 @@
             <span class="AL">30.</span><span id="30" class="AC">兴</span><span class="AL">许</span><span class="AL"> xīng</span>
         </div>
         <br></br>
-        <button type="button" class="btn btn-primary btn-lg btn-block" onclick=back(1)>返回</button>
         </div>
         <br></br>
         <script>judge(1)</script>
